@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.web-box{
+    display:flex;
+    padding:20px;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.tittle-container{
+display:flex;
+padding:20px;
+flex-direction: column;
+align-items: center;
+}
+
+.sp-text{
+    font-family: Sans-Serif;
+    font-size: 42px;
+    letter-spacing: .7px;
+    background: -webkit-linear-gradient(#ff4b54, #e136b1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sp-text-small{
+    font-family: Sans-Serif;
+    font-size: 20px;
+    letter-spacing: .7px;
+    background: #e136b1;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.box-text{
+    font-family: Sans-Serif;
+    font-size: 15px;
+    letter-spacing: .7px;
+    background: #151515;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.car-image{
+    width: 400px;
+    height: 400px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Goofy-zoomed-cute-cat-pfp-rmb3vpdhn9qbyxfg.jpg/1200px-Goofy-zoomed-cute-cat-pfp-rmb3vpdhn9qbyxfg.jpg);
+    border-radius: 5px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.img-format{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.galery-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.car-image0{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/564x/9e/fb/af/9efbaf9ae55bdc5c6e1b0936aafa3f41.jpg);
+    border-radius: 5px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.car-image1{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/564x/d4/d1/e5/d4d1e5daf4935558d4a7240436f3de80.jpg);
+    border-radius: 5px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.car-image2{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/736x/9c/c2/ce/9cc2ce311fde01337a0713001be4721a.jpg);
+    border-radius: 5px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.car-image3{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/736x/c0/28/5d/c0285d9d0219acef2442fa2a06e776f0.jpg);
+    border-radius: 5px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.car-image4{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/564x/2c/51/0b/2c510b58211cbecde30a779b9ddc65c7.jpg);
+    border-radius: 5px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.car-image5{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/originals/3e/fc/c4/3efcc453f79abf55c96f1e2d4314fa1a.jpg);
+    border-radius: 5px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.car-spinner{
+    width: 52px;
+    height: 52px;
+    position: relative;
+    background-image: url(https://preview.redd.it/do-you-have-goofy-pics-of-your-pretty-cats-v0-51t4e3gnyvib1.jpg?auto=webp&s=27b628d946d585f415de91edb250544ccff0d02c);
+    animation: spin 15s infinite linear;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
